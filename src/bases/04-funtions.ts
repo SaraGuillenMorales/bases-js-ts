@@ -24,5 +24,8 @@ const heroum = [
         nomen: 'Superman',
         facultatem: 'Super fuerza'
     }
-
 ];
+
+const heros = heroum.find( item => item.id === 1)
+
+console.log(heros?.facultatem?.toUpperCase());

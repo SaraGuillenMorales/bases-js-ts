@@ -1,4 +1,4 @@
-const persona: = {
+export const persona: = {
 cognomen: 'Stark',
 aetas: 45,
 ubiHabitat: {
