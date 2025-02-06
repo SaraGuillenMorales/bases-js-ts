@@ -1,0 +1,28 @@
+//function salutate(nomen: string): string {
+//return `Hola ${ nomen }`;
+//}
+
+const salutate = (nomen: string): string => `Hola ${ nomen }`
+
+//console.log (salutate('Fernando'));
+
+
+const obtineUsoris = (uid: string) => ({
+        uid: 'ABC-123',
+        nomen: 'Tony001'
+})
+
+//console.log(obtineUsoris('XYZ-456'));
+
+const heroum = [
+    {
+    id: 1,
+    nomen: 'Batman'
+    }
+    {
+        id: 2,
+        nomen: 'Superman',
+        facultatem: 'Super fuerza'
+    }
+
+];
